@@ -1,0 +1,32 @@
+{
+  "name": "proyek-bot-aesthetic",
+  "version": "2.0.0",
+  "description": "WhatsApp Bot Aesthetic dengan Baileys - Tanpa Media",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No test specified\""
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.5.0",
+    "qrcode-terminal": "^0.12.0",
+    "fs-extra": "^11.2.0",
+    "chalk": "^4.1.2",
+    "moment": "^2.30.1",
+    "axios": "^1.6.2",
+    "pino": "^8.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "whatsapp-bot",
+    "baileys",
+    "aesthetic",
+    "bot",
+    "whatsapp"
+  ],
+  "author": "Laysha Team",
+  "license": "MIT"
+}
